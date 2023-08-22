@@ -151,7 +151,7 @@ p {
 }
 
 
-/**DIMENSÕES PARA TELA DE CELULARES**/
+/**DIMENSÕES PARA MOBILE
 @media screen and (min-width: 320px) and (max-width: 600px) {
   h1 {
     font-size: 2rem;
@@ -187,3 +187,121 @@ p {
   }
 
 }
+**/
+
+/**DIMENSÕES PARA TABLET
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .menu ul {
+    display: block;
+  }
+  .introducao > h2 {
+    font-size: 2rem;
+  }
+
+  .introducao > p {
+    font-size: 1.3rem;
+  }
+  
+  .botao {
+    font-size: 1rem;
+  }
+
+  .introducao-img {
+    max-width: 500px;
+    object-fit: cover;
+    overflow-y: hidden;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vantagens{
+    display: block;
+  }
+}
+**/
+
+/**DIMENSÕES PARA LAPTOP
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .introducao > h2 {
+    font-size: 2rem;
+  }
+
+  .introducao > p {
+    font-size: 1.3rem;
+  }
+  
+  .botao {
+    font-size: 1rem;
+  }
+
+  .introducao-img {
+    max-width: 800px;
+    object-fit: cover;
+    overflow-y: hidden;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vantagens{
+    display: block;
+  }
+}
+**/
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    min-width: 1024px;
+  }
+
+  h1 { 
+    font-size: 2rem;
+  }
+
+  .introducao > h2 {
+    font-size: 2rem;
+  }
+
+  .introducao > p {
+    font-size: 1.2rem;
+  }
+  
+  .botao {
+    font-size: 0.8rem;
+  }
+
+  .introducao-img {
+    max-width: 1100px;
+    object-fit: cover;
+    overflow-y: hidden;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vantagens{
+    display: block;
+    max-width: 600px;
+  }
+
+  .vantagens-lista {
+    font-size: 0.5rem;
+
+  }
+}
+
