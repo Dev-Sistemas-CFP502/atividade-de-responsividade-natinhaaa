@@ -151,6 +151,7 @@ p {
 }
 
 
+/**DIMENSÕES PARA TELA DE CELULARES**/
 @media screen and (min-width: 320px) and (max-width: 600px) {
   h1 {
     font-size: 2rem;
@@ -163,9 +164,26 @@ p {
   }
 
   .introducao > p {
-    display: flex;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   
+  .botao {
+    font-size: 0.7rem;
+  }
+
+  .introducao-img {
+    max-width: 320px;
+    object-fit: cover;
+    overflow-y: hidden;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vantagens{
+    display: block;
+  }
 
 }
